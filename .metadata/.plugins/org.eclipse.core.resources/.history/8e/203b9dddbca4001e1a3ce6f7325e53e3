@@ -1,0 +1,5 @@
+package com.seleniumexpress.addressapp.controller;
+
+public class AddressController {
+
+}

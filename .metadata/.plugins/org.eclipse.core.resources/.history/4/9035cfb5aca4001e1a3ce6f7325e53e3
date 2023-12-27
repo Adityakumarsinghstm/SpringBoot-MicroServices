@@ -1,0 +1,5 @@
+package com.seleniumexpress.employeeapp.config;
+
+public class EmployeeConfig {
+
+}

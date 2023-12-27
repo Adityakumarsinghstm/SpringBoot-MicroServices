@@ -1,0 +1,5 @@
+package com.seleniumexpress.employeeapp.entity;
+
+public class Employee {
+
+}

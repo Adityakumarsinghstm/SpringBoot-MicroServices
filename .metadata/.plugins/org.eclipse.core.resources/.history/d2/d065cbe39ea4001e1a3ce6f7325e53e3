@@ -1,0 +1,23 @@
+package com.seleniumexpress.employeeapp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.seleniumexpress.employeeapp.entity.Employee;
+import com.seleniumexpress.employeeapp.repo.EmployeeRepository;
+
+@RestController
+public class EmployeeController {
+	@Autowired
+	EmployeeRepository employeeRepository;
+
+	@GetMapping("/employees/{id}")
+	 Employee getEmployeeDetails(@PathVariable("id") int id)
+	{
+		Employee employee = employeeRepository.findById(id).get();
+		return employee;
+	}
+	
+}

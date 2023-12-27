@@ -1,0 +1,5 @@
+package com.seleniumexpress.addressapp.response;
+
+public class AddressResponse {
+
+}

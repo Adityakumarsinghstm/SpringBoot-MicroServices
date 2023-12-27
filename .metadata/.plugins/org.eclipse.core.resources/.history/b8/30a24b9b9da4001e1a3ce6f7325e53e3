@@ -1,0 +1,5 @@
+package com.seleniumexpress.employeeapp.repo;
+
+public interface EmployeeRepository {
+
+}
